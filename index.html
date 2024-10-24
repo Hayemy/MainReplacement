@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repuestos para Motos - MotoParts</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="fontello-a540fdbf/css/">
+
+</head>
+
+
+<body class="TipoLetra">
+    
+    <header >
+        
+        <h1 >Bienvenido a MainReplacement</h1>
+        <style type="text/css">
+            h1
+            {
+                color: red;
+                font-size: 28px;
+                font-weight:bold;
+            }
+            .TipoLetra {
+                font-family:Arial, Helvetica, sans-serif
+            }
+            .Negrilla {
+                font-weight: bold;
+            }
+            .Azul {
+               color: blue;
+               font-weight:bolder;
+            }
+
+        </style>
+        <nav>
+            <ul>
+                <li><a href="#repuestos">Repuestos</a></li>
+                <li><a href="#accesorios">Accesorios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="repuestos">
+            <h2 >Aqui tenemos algunso repuestos para Motos para ti</h2>
+            <p >Ofrecemos una amplia gama de repuestos para las marcas más conocidas como:</p>
+            <ul>
+                <li>Honda</li>
+                <li>AKT</li>
+                <li>Pulsar</li>
+                <li>Yamaha</li>
+                <li>BMW</li>
+            <p >No encuentras la tuya? <a href="#contacto">Contáctanos</a> y pregunta por tu moto.</p>
+            </ul>
+            <h3 >Productos Destacados</h3>
+            <table>
+                <tr class="Azul">
+                    <th>Producto</th>
+                    <th>Marca</th>
+                    <th>Precio</th>
+                </tr>
+                <tr>
+                    <td>Frenos de disco</td>
+                    <td>Honda</td>
+                    <td>$60.000</td>
+                </tr>
+                <tr>
+                    <td>Filtro de aceite</td>
+                    <td>AKT</td>
+                    <td>$10.999</td>
+                </tr>
+                <tr>
+                    <td>Espejos laterales</td>
+                    <td>Pulsar</td>
+                    <td>$85.000</td>
+                </tr>
+            </table>
+            <h3>Imagen de un Producto</h3>
+            <img src="Multimedia/img-1.jpg" alt="Repuesto de moto" width="300">
+        </section>
+
+        <section id="accesorios">
+            <h2>Accesorios para Motos</h2>
+            <p>Además de repuestos, tenemos una variedad de accesorios para personalizar tu moto:</p>
+            <ol>
+                <li>Cascos de seguridad</li>
+                <li>Guantes</li>
+                <li>Chaquetas</li>
+                <li>Alforjas</li>
+            </ol>
+            <h3>Links de Interés</h3>
+            <p>Visita nuestras marcas asociadas:</p>
+            <ul>
+                <li><a href="https://www.honda.com" target="_blank">Honda</a></li>
+                <li><a href="https://www.akt.com.co" target="_blank">AKT</a></li>
+                <li><a href="https://www.pulsar.com" target="_blank">Pulsar</a></li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="Negrilla">
+            <h2>Contacto</h2>
+            <p>Si tienes alguna pregunta, completa el siguiente formulario:</p>
+            <form action="submit_form.php" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+        <a href="https://api.whatsapp.com/send?phone=3045725376"
+            class="btn-wps" target="_blank">
+            <i class="icon-whatsapp"> </i>
+        </a>
+    </main>
+
+    <footer class="Negrilla">
+        <p>&copy; 2024 MainReplacement. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
